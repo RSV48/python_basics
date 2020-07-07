@@ -19,9 +19,9 @@ def str_user_3(name='', surname='', year_birth='', city='', email='', tel=''):
 
 
 dict1 = str_user_1(name='Роман', surname='Васильев', yearBirth='1982', city='Липецк', email='ena@enagent.ru',
-                   tel='34343')
+                   tel='343434')
 dict2 = str_user_2(name='Роман', surname='Васильев', yearBirth='1982', city='Липецк', email='ena@enagent.ru',
-                   tel='34343')
+                   tel='343434')
 dict3 = str_user_3(name='Роман', surname='Васильев', year_birth='1982', city='Липецк', email='ena@enagent.ru')
 
 print (f'Решение 1 : {dict1}')
