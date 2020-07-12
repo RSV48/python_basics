@@ -1,7 +1,11 @@
 from itertools import count
 from itertools import cycle
 
-digit = int(input('Введите целое число: '))
+try:
+    digit = int(input('Введите целое число: '))
+except ValueError:
+    print('Введено не корреткное значение. Работа скрипта завершена.')
+
 str_line = input('Введите строку: ')
 
 # ------------------- Подзадача А ----------------------------
